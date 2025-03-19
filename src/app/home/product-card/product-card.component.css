@@ -1,0 +1,51 @@
+/* filepath: d:\angular-demos\just-a-girl\src\app\home\product-card\product-card.component.css */
+.product-card {
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  mat-card-title,
+  mat-card-subtitle {
+    text-align: center;
+  }
+  
+  mat-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  mat-card-actions {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+
+.card-general{
+  width:30% ;
+  padding: 20px;
+  margin: 50px;
+}
+
+.card-general.card-img,
+.card-img-top,
+.card-img-bottom {
+  width: 100%;
+}
+
+.card-img,
+.card-img-top {
+  border-top-left-radius: var(--bs-card-inner-border-radius);
+  border-top-right-radius: var(--bs-card-inner-border-radius);
+}
+
+.card-img,
+.card-img-bottom {
+  border-bottom-right-radius: var(--bs-card-inner-border-radius);
+  border-bottom-left-radius: var(--bs-card-inner-border-radius);
+}
+
+.card-group > .card {
+  margin-bottom: var(--bs-card-group-margin);
+}

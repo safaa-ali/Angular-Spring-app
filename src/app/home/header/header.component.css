@@ -1,0 +1,20 @@
+.toolbar-container {
+    width: 50%; /* Adjust the width as needed */
+    margin:  auto 0; /* Center the toolbar */
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .title {
+    color:rgb(36, 97, 79) ;
+    font-family: cursive;
+    font-size: 1em;
+
+  }
+
+  .active-link {
+    font-weight: bold;
+    color: yellow; /* Change this to your desired active link color */
+  }
